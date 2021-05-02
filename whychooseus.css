@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: #6cd5c4;
+}
+
+#whychooseus {
+	background-color: #6cd5c4;
+	background-size: cover;
+}
+
+.h2, h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 4em;
+    color: white;
+    margin: auto;
+    margin-block-start: 1.5em;
+    margin-inline-start: 35px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.features {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+}
+
+.feature-title {
+	color: #333;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.features img {
+	margin-bottom: 16px;
+}

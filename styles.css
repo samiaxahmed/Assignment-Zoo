@@ -1,0 +1,235 @@
+body {
+	background-color: #FAD971;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 100vh;
+	justify-content: space-around;
+}
+
+body>* {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+nav {
+	color: white;
+	background-color: #FAD971;
+	height: 80px;
+	width: 100%;
+	flex-direction: row;
+	max-width: 600px;
+	justify-content: space-around;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.choose a {
+	color: white;
+	background-color: #D4B4FD;
+	text-decoration: none;
+	margin-left: 38px;
+	/*top: 1000px;
+	/*position: absolute;
+	/*width: 100%; *?
+	/* height: 10%; */
+	border: 3px solid #D4B4FD;
+	border-radius: 30px;
+	padding: 15px;
+}
+
+a:hover {
+	color: #617ECF;
+}
+
+header {
+	color: white;
+	background-color: #86D2C4;
+	height: 550px;
+	width: 100%;
+}
+
+header h1 {
+	font-size: 64px;
+	margin: 0;
+}
+
+header h2 {
+	font-size: 40px;
+	margin: 0;
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	display: block;
+	font-size: 3em;
+	margin-block-start: 2em;
+	margin-block-end: 1em;
+	margin-inline-start: 35px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+}
+
+h3 {
+	display: block;
+	font-size: 1.10em;
+	margin-block-start: 2em;
+	margin-inline-start: 35px;
+	margin-inline-end: 90px;
+	font-weight: normal;
+	margin-bottom: 48px;
+}
+
+header h3 {
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	margin: auto;
+	width: 50%;
+	border: 3px;
+	padding: 10px;
+}
+
+header img {
+	width: 300px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	object-fit: cover;
+	object-position: top center;
+}
+
+
+
+#aboutus {
+	color: white;
+	background-color: #A6DBE1;
+	min-height: 500px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	align-items: center;
+}
+
+#whychooseus>div {
+	max-width: 640px;
+	/* padding: top right bottom left */
+	padding: 16px 40px 16px 40px;
+
+	/*a in rgba is the alpha channel that specifies the opacity for a color*/
+	background-color: rgba(0, 0, 0, 0.7);
+
+	/* Define the text color in this div box*/
+	color: white;
+	
+}
+
+#howitworks {
+	color: black;
+	background-color: #A6DBE1;
+	min-height: 400px;
+	padding: 20px 0;
+	width: 100%;
+	flex-direction: column;
+
+}
+
+#howitworks h2 {
+	color: #F45B69;
+	text-transform: uppercase;
+
+}
+
+#contact {
+	color: white;
+	background-color: #86D2C4;
+	min-height: 400px;
+	padding: 20px 0;
+	width: 100%;
+	flex-direction: column;
+}
+
+#contact h2 {
+	color: white;
+}
+
+#contact form {
+	max-width: 640px;
+	color: white;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#contact form>* {
+	font-family: 'Poppins', sans-serif;
+}
+
+#contact input {
+	width: 100%;
+	font-size: 16px;
+	padding: 8px;
+	border: none;
+	margin-bottom: 16px;
+}
+
+#contact textarea {
+	width: 100%;
+	font-size: 16px;
+	padding: 8px;
+	border: none;
+	margin-bottom: 16px;
+	height: 120px;
+	resize: none;
+}
+
+#contact button {
+	width: 50%;
+	background-color: #F097BA;
+	color: white;
+	padding: 13px;
+	font-size: 16px;
+	cursor: pointer;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+}
+
+button {
+	border-radius: 55px;
+}
+
+footer {
+	height: 120px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color:white;
+}
+
+footer .links {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 120px;
+	margin-bottom: 8px;
+}
+
+footer .links img {
+	width: 24px;
+	height: 24px;
+}
